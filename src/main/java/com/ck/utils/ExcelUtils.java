@@ -1,15 +1,14 @@
 package com.ck.utils;
  
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 
 public class ExcelUtils {
@@ -67,7 +66,7 @@ public class ExcelUtils {
 
 			public static Object[][] testData(String Path,String SheetName)throws Exception{
 				ArrayList<String> arrkey = new ArrayList<String>();
-				header = new HashMap<>();
+				header = new HashMap<String,Integer>();
 				setExcelFile(Path,SheetName);
 				map = new HashMap[rowLength - 1][1];
 				// init HashMap Array

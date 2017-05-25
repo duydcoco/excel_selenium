@@ -11,8 +11,8 @@ package com.ck.utils;
       public static final String Facturation = "10008*";
 
 //      public static final String Path_TestData = "C://Users//a00178//Desktop//";
-      public static final String Path_TestData = "G:\\github_pro\\excel_read_write\\src\\main\\java\\com\\ck\\data\\";
+      public static final String Path_TestData = "F:\\javaDemo\\excel_selenium\\src\\main\\java\\com\\ck\\data\\";
 
-      public static final String File_TestData = "Data.xlsx";
+      public static final String File_TestData = "zhihu.xlsx";
 
    }
